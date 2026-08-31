@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "engram": {
+      "command": "engram",
+      "args": ["mcp", "--tools=agent", "--project", "l2-unity"],
+      "cwd": "${workspaceFolder}"
+    },
+    "codebase-memory": {
+      "command": "codebase-memory-mcp",
+      "args": [],
+      "disabled": false,
+      "env": {
+        "CBM_MEM_BUDGET_MB": "16384"
+      },
+      "autoApprove": []
+    }
+  }
+}
