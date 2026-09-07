@@ -16,4 +16,4 @@ Unity deprecated the MCP server in the in-editor AI assistant package (`com.unit
 
 Docs: https://docs.unity.com/en-us/unity-cli
 
-When working on Unity workflows in this repo, prefer official Unity skills + Unity CLI. Do not set up or rely on the deprecated in-Editor AI Assistant MCP server.
+Official Unity skills are installed in-repo under `.agents/skills/` (via `npx skills add Unity-Technologies/skills`). When working on Unity workflows, prefer those skills + Unity CLI. Do not set up or rely on the deprecated in-Editor AI Assistant MCP server.
